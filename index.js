@@ -19,7 +19,7 @@ module.exports = function(){
       curval      = this.value;
     if (e.keyCode !== 189 && e.keyCode !== 32 && e.keyCode !== 8) {
       if(curchr === 3){
-        this.value = '(' + curval + ')' + '-';
+        this.value = '(' + curval + ')' + ' ';
       }else if (curchr === 9 && e.keyCode !== 8) {
         this.value = curval + '-';
       }
